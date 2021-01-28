@@ -1,0 +1,48 @@
+body {
+  background-image: url("images/1.jpg");
+  background-position: center;
+  
+  background-repeat: no-repeat;
+ 
+  background-size: cover;
+}
+.navi {
+  background-color: rgba(1, 1, 1, 0.7);
+
+
+text-align: center;
+
+font-family: Arial, Helvetica, sans-serif;
+list-style-type: none;
+
+margin-top: 20%;
+padding:0%;
+
+display: block;
+
+
+
+}
+
+.navi li{
+display: inline-block;
+font-size: 35px;
+padding: 15px;
+overflow: hidden;
+
+}
+.navi>ul>li>a {
+  text-decoration: none;
+  color:white;
+  display: block;
+  
+}
+.navi>ul>li> a:hover {
+  background-color: rgb(85, 9, 9);
+  display: flex;
+}
+.logo {
+ 
+margin-top: 10px;
+
+}
